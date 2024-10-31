@@ -23,8 +23,12 @@ setInterval(changeProffesion, 12000)
 
 document.getElementById("theme-humberger").addEventListener("click", function(){
     var palette = document.getElementById("theme-palette")
+    var theme = document.getElementById("theme")
+    var toggler = document.getElementById("toggler")
 
     palette.classList.toggle('animate')
+    theme.classList.toggle('animate')
+    toggler.classList.toggle('animate')
 })
 
 document.querySelector(".red").addEventListener('click', function(){
@@ -63,6 +67,7 @@ document.querySelector(".black").addEventListener('click', function(){
     document.documentElement.style.setProperty('--box-shadow', '#ff0080')
     document.documentElement.style.setProperty('--txt-black', '#ffffff')
     document.documentElement.style.setProperty('--txt-white', '#000000')
+    document.documentElement.style.setProperty('--transparent-white', '#191919cb')
     document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct-bl-red.svg")')
 
      var img = document.querySelector(".intro-picture>img")
@@ -76,6 +81,7 @@ document.querySelector(".purple").addEventListener('click', function(){
     document.documentElement.style.setProperty('--box-shadow', '#9f459f')
     document.documentElement.style.setProperty('--txt-white', '#ffffff')
     document.documentElement.style.setProperty('--txt-black', '#000000')
+    document.documentElement.style.setProperty('--transparent-white', '#ffffffcb')
     document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct.svg")')
 
      var img = document.querySelector(".intro-picture>img")
