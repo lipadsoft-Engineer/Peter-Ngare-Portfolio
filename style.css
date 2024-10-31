@@ -9,7 +9,7 @@
   --txt-black: #000000;
   --txt-white: #ffffff;
 
-  --vector: url("./images/vector.png");
+  --vector: url("./images/intro-vct.svg");
 }
 
 /* ================================================ */
@@ -24,6 +24,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 /* ================================================ */
@@ -366,6 +367,7 @@ body {
   top: 60vh;
   z-index: -1;
   width: 430px;
+  scale: 1.5;
   height: 450px;
   background-image: var(--vector);
   background-size: contain;
@@ -578,11 +580,12 @@ body {
 /* footer section */
 #footer {
   width: 100vw;
-  background: linear-gradient(90deg, var(--purple), var(--cta-col));
+  background: linear-gradient(90deg, var(--purple), black);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   padding-top: 40px;
   margin-top: 80px;
+  color: white; /* check to solve */
 }
 
 #footer .page-links,

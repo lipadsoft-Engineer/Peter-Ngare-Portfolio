@@ -30,31 +30,31 @@ document.getElementById("theme-humberger").addEventListener("click", function(){
 document.querySelector(".red").addEventListener('click', function(){
     document.documentElement.style.setProperty('--purple', '#ff0000')
     document.documentElement.style.setProperty('--box-shadow', '#ff0000')
-    document.documentElement.style.setProperty('--vector', 'url("./images/vector-red.png")')
+    document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct-red.svg")')
 
 
     var img = document.querySelector(".intro-picture>img")
-    img.src = './images/peter-profile-red.png'
+    img.src = './images/peter-red.webp'
 
 })
 
 document.querySelector(".green").addEventListener('click', function(){
     document.documentElement.style.setProperty('--purple', '#008000')
     document.documentElement.style.setProperty('--box-shadow', '#008000')
-    document.documentElement.style.setProperty('--vector', 'url("./images/vector-green.png")')
+    document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct-green.svg")')
 
      var img = document.querySelector(".intro-picture>img")
-    img.src = './images/peter-profile-green.png'
+    img.src = './images/peter-green.webp'
 
 })
 
 document.querySelector(".blue").addEventListener('click', function(){
     document.documentElement.style.setProperty('--purple', '#1212db')
     document.documentElement.style.setProperty('--box-shadow', '#1212db')
-    document.documentElement.style.setProperty('--vector', 'url("./images/vector-blue.png")')
+    document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct-blue.svg")')
 
      var img = document.querySelector(".intro-picture>img")
-    img.src = './images/peter-profile-blue.png'
+    img.src = './images/peter-blue.webp'
 
 })
 
@@ -63,10 +63,10 @@ document.querySelector(".black").addEventListener('click', function(){
     document.documentElement.style.setProperty('--box-shadow', '#ff0080')
     document.documentElement.style.setProperty('--txt-black', '#ffffff')
     document.documentElement.style.setProperty('--txt-white', '#000000')
-    document.documentElement.style.setProperty('--vector', 'url("./images/vector-black.png")')
+    document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct-bl-red.svg")')
 
      var img = document.querySelector(".intro-picture>img")
-    img.src = './images/peter-profile-black.png'
+    img.src = './images/peter-bl-red.webp'
 
     document.body.style.backgroundColor = '#191919';
 })
@@ -76,10 +76,10 @@ document.querySelector(".purple").addEventListener('click', function(){
     document.documentElement.style.setProperty('--box-shadow', '#9f459f')
     document.documentElement.style.setProperty('--txt-white', '#ffffff')
     document.documentElement.style.setProperty('--txt-black', '#000000')
-    document.documentElement.style.setProperty('--vector', 'url("./images/vector.png")')
+    document.documentElement.style.setProperty('--vector', 'url("./images/intro-vct.svg")')
 
      var img = document.querySelector(".intro-picture>img")
-    img.src = './images/peter-profile.png'
+    img.src = './images/peter-pic.webp'
 
     document.body.style.backgroundColor = '#ffffff';
 })
